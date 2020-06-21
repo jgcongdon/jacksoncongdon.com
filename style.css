@@ -1,3 +1,13 @@
+/* Global variables for changing colours across the site */
+:root {
+    --accent: #226997;
+    --main: #333;
+    --light: #666;
+    --lighter: #f3f3f3;
+    --border: #e6e6e6;
+    --bg: #fff;
+}
+
 /* Format the main body of the website */
 body {
     background: var(--bg);
