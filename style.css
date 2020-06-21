@@ -34,5 +34,5 @@ a:hover, a:focus {
 img.home-banner {
     padding-top: 60px;
     padding-bottom: 20px;
-    style="width:100%;max-width:400px"
+    style="height:"auto";max-width:100%"
 }
