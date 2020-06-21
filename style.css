@@ -29,3 +29,9 @@ a, a:visited {
 a:hover, a:focus {
     text-decoration: underline;
 }
+
+/* Format the banner image on the home page */
+img.home-banner {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
