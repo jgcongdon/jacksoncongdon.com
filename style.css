@@ -50,3 +50,11 @@ li.nav a {
   padding: 14px 16px;
   text-decoration: none;
 }
+
+ul.nav li.nav a:hover:not(.active){
+  background-color: var(--accent);
+}
+
+.active {
+	background-color: var(--accent);
+}
