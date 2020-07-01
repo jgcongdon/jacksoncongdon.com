@@ -58,3 +58,7 @@ ul.nav li.nav a:hover:not(.active){
 .active {
 	background-color: var(--accent);
 }
+
+h1 {
+	font-size:600px;
+}
