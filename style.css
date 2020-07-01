@@ -60,5 +60,6 @@ ul.nav li.nav a:hover:not(.active){
 }
 
 h1 {
-	font-size:60px;
+	font-size: 48px;
+	text-align: center;
 }
