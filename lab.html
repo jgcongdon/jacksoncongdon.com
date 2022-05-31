@@ -1,4 +1,4 @@
-<form action="https://sheetdb.io/api/v1/wbfwlzwzjeydy" method="POST">
+<form method="POST" id="sheetdb-form" action="https://sheetdb.io/api/v1/wbfwlzwzjeydy">
     Name: <input name="data[Name]">
     Date: <input name="data[Email]">
     Item: <input name="data[Item]">
@@ -10,7 +10,7 @@
 
 <script>
   var form = document.getElementById('sheetdb-form');
-  form.addEventListener("Submit", e => {
+  form.addEventListener("submit", e => {
     e.preventDefault();
     fetch(form.action, {
         method : "POST",
